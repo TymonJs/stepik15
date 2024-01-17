@@ -10,25 +10,21 @@ td{
     text-transform: capitalize;
     padding: 0;
     margin: 0;
-    /* background-color: beige; */
     
 }
 body{
     background-image: url('./car.jpeg');
-    
-    /* max-width: 15rem; */
     text-align: center;
-    /* margin: 0 10rem */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 .container{
     background-color: beige;
     padding: 2rem;
-    margin-top: 5rem;
+    margin: 5rem;
 }
 img{
     border-radius: 100px;
