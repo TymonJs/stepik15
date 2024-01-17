@@ -1,0 +1,41 @@
+a{
+    display: block;
+}
+td{
+    border: 2px solid orange;
+    background-color: bisque;
+}
+*{
+    font-family: 'Poppins';
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    /* background-color: beige; */
+    
+}
+body{
+    background-image: url('./car.jpeg');
+    
+    /* max-width: 15rem; */
+    text-align: center;
+    /* margin: 0 10rem */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: beige;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+img{
+    border-radius: 100px;
+    border: 10px dashed orange;
+}
+.tables{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
